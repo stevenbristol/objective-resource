@@ -1,0 +1,14 @@
+
+
+This is a hack from http://github.com/yfactorial/objectiveresource.git.
+
+The purpose of this is to add form based serialization, which allows for the uploading of as many files as you want.
+
+
+This obviously should have been a clone of ryan's project, but by the time I got around to writing this "patch" I had already deviated from their branch in significant ways (mostly folder structure, and it drove me nuts that the sample app was tied in so tight).
+
+The code doesn't devaiate too much, so it shouldn't be too hard for someone capable to get this into their master. the main thing I added was the Form serialization stuff, which is the important thing. I think if you pretty much drop that dir in and add a few imports if should work.
+
+I also want to give credit to another branch of OR by someone i can't remember, but that's where I got the original ORBinary class.
+
+I hope my little work here continues my tradition of making Ryan both love me and hate me. ;)
